@@ -1,0 +1,513 @@
+::-moz-selection{
+    background-color:#e5ac98;
+    color:#eadcd7;
+}
+
+::selection{
+    background-color:#e5ac98;
+    color:#eadcd7;
+}
+body {
+	width: auto;
+	font-family: Courier New , monospace;
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div, a, p {
+	box-sizing: border-box;
+
+}
+
+img {
+	max-width:100%;
+	max-height:100%;
+	height: auto;
+	width: auto;
+}
+
+header {
+background: url(../img/фон.jpg) no-repeat center top / cover;
+padding-bottom: 160px;
+background-attachment: fixed
+}
+
+
+.left {
+
+}
+
+
+.all {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.container {
+
+}
+
+.logo {
+	width: 150px;
+	height: 20px;
+	padding: 25px 50px 25px 25px;
+	margin: 0px 0px 0px 30px;
+	float:left;
+}
+
+.bg {
+	width: auto;
+	height: 75px;
+	background: #757575;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	padding: 0px;
+	border: 0px solid #000;
+	/*opacity: .8;*/
+}
+
+
+.menu {
+	float: right;
+	display: block;
+	margin: 0 auto;
+
+}
+
+.active {
+	padding: 0px 0px 0px 40px;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	padding: 25px; 
+}
+
+.menu a {
+	color: #f0f0f0;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	display: block;
+}
+
+
+.menu li a:hover {
+	color: #f0f0f0;
+	border-bottom: 1px solid #fec8c2;
+	border-top: 1px solid #fec8c2;
+	padding: 0;
+}
+
+.titles h1 {
+	color: #f0f0f0;
+	text-align: center;
+	padding: 175px 0px 0px 0px;
+	font-size: 70px;
+}
+
+.titles h2 {
+	color: #f0f0f0;
+	text-align: center;
+	padding: 10px 0px 90px 0px;
+}
+
+.botton {
+	background: #636363;
+	color: #fec8c2;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 3px;
+	display: block;
+	width: 300px;
+	padding: 20px 0px;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 18px;
+	/*opacity: .9;*/
+}
+
+/* Menu */
+
+.title h2 {
+	text-align: center;
+	color: #e6b5aa;
+	font-size: 60px;
+	padding: 100px 0px 0px 0px;
+	margin: 0 auto;
+}
+
+.title p {
+	text-align: center;
+	color: #a8aaa7;
+	font-size: 20px;
+}
+
+.container2 {
+width: 80%;
+margin: 0 auto;
+padding-bottom: 70px;
+}
+
+.image img {
+	padding: 150px 0px 50px 25px;
+	float: right;
+	width:540px;
+	height:360px;
+}
+
+.image h2 {
+	color: #8c9d9c;
+	padding: 200px 0px 0px 0px;
+	font-size: 38px;
+}
+
+.image p {
+	color: #8c9d9c;
+	padding: 50px 0px 0px 0px;
+	font-size: 20px;
+}
+
+.imagee img {
+	padding: 130px 0px 50px 25px;
+	float: left;
+	width:540px;
+	height:360px;
+}
+
+.imagee h2 {
+	color: #8c9d9c;
+	padding: 160px 0px 0px 0px;
+	font-size: 38px;
+	float: right;
+}
+
+.imagee p {
+	color: #8c9d9c;
+	padding: 50px 30px 0px 0px;
+	font-size: 20px;
+	padding: 300px 0px 20px 670px;
+}
+
+.title h2 {
+	/* чтобы линии не выходили за ширину блока заголовка */
+	overflow: hidden;
+}
+
+.title h2:before,
+.title h2:after {
+	content: '';
+
+	/* делаем линию строчно-блочной */
+	display: inline-block;
+
+	/* выравниваем вертикально по середине */
+	vertical-align: middle;
+
+	/* не позволяем ширине превысить 100% (будет добавлен бордюр) */
+	box-sizing: border-box;
+
+	/* установка ширины в 100% делает линию равной ширине тега заголовка
+	** благодаря этому линия заполнит все свободное пространство
+	** слева и справа от текста
+	*/
+	width: 50%;
+	height: 3px;
+	background: #a8aaa7;
+
+	/* добавляем к линии левый и правый бордюр цветом основного фона заголовка
+	** благодаря этому создается нужный отступ между линиями и текстом
+	*/
+	border: solid #FFF;
+	border-width: 0 10px;
+}
+.title h2:before {
+	/* смещаем левую линию влево отрицательным отступом, равным 100% ширины
+	** благодаря этому линия встает слева от текста
+	*/
+	margin-left: -100%;
+}
+.title h2:after {
+	/* смещаем правую линию вправо отрицательным отступом, равным 100% ширины
+	** благодаря этому линия встает справа от текста
+	*/
+	margin-right: -100%;
+}
+
+/* Services */
+
+
+.container3 {
+	background: #e9e9e9;
+	margin: 0 auto;
+}
+
+.pinkbg {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.pinkbg p {
+	text-align: center;
+	color: #a8aaa7;
+	font-size: 20px;
+	padding: 0px 0px 50px 0px;
+}
+
+
+.pinkbg h2 {
+	text-align: center;
+	color: #e6b5aa;
+	font-size: 60px;
+	padding: 100px 0px 0px 0px;
+	margin: 0 auto;
+}
+
+.pinkbg h2:before,
+.pinkbg h2:after {
+	content: '';
+
+	/* делаем линию строчно-блочной */
+	display: inline-block;
+
+	/* выравниваем вертикально по середине */
+	vertical-align: middle;
+
+	/* не позволяем ширине превысить 100% (будет добавлен бордюр) */
+	box-sizing: border-box;
+
+	/* установка ширины в 100% делает линию равной ширине тега заголовка
+	** благодаря этому линия заполнит все свободное пространство
+	** слева и справа от текста
+	*/
+	width: 35%;
+	height: 3px;
+	background: #e6b5aa;
+
+	/* добавляем к линии левый и правый бордюр цветом основного фона заголовка
+	** благодаря этому создается нужный отступ между линиями и текстом
+	*/
+	border: solid #e6b5aa;
+	border-width: 0 10px;
+}
+.pinkbg h2:before {
+	/* смещаем левую линию влево отрицательным отступом, равным 100% ширины
+	** благодаря этому линия встает слева от текста
+	*/
+	margin-left: -100%;
+}
+.pinkbg h2:after {
+	/* смещаем правую линию вправо отрицательным отступом, равным 100% ширины
+	** благодаря этому линия встает справа от текста
+	*/
+	margin-right: -100%;
+}
+
+.column img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.columns  {
+	padding: 10px 70px 70px 70px;
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 70px;
+
+}
+
+.column {
+	width: 300px;
+	float: left;
+	text-align: center;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.column h2 {
+margin-bottom: 10px;
+color: #e6b5aa;
+font-size: 30px;
+padding: 0px 0px 0px 20px;
+}
+
+.column p {
+color: #a8aaa7;
+font-size: 20px;
+padding: 0px 0px 0px 20px;
+}
+
+/*Portfolio*/
+
+.portfolio h2:before,
+.portfolio h2:after {
+	content: '';
+
+	/* делаем линию строчно-блочной */
+	display: inline-block;
+
+	/* выравниваем вертикально по середине */
+	vertical-align: middle;
+
+	/* не позволяем ширине превысить 100% (будет добавлен бордюр) */
+	box-sizing: border-box;
+
+	/* установка ширины в 100% делает линию равной ширине тега заголовка
+	** благодаря этому линия заполнит все свободное пространство
+	** слева и справа от текста
+	*/
+	width: 30%;
+	height: 3px;
+	background: #a8aaa7;
+
+	/* добавляем к линии левый и правый бордюр цветом основного фона заголовка
+	** благодаря этому создается нужный отступ между линиями и текстом
+	*/
+	border: solid #a8aaa7;
+	border-width: 0 10px;
+}
+.portfolio h2:before {
+	/* смещаем левую линию влево отрицательным отступом, равным 100% ширины
+	** благодаря этому линия встает слева от текста
+	*/
+	margin-left: -100%;
+}
+.portfolio h2:after {
+	/* смещаем правую линию вправо отрицательным отступом, равным 100% ширины
+	** благодаря этому линия встает справа от текста
+	*/
+	margin-right: -100%;
+}
+
+.portfolio {
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 70px;
+}
+
+.portfolio p {
+	color: #8c9d9c;
+	font-size: 20px;
+	text-align: center;
+	padding: 0px 0px 50px 0px;
+}
+
+.portfolio h2 {
+	text-align: center;
+	color: #e6b5aa;
+	font-size: 60px;
+	padding: 100px 0px 0px 0px;
+	margin: 0 auto;
+}
+
+.works img {
+	
+	margin: 0 auto;
+}
+
+/*About*/
+
+.about {
+background: url(../img/5_2.jpg) no-repeat center top / cover;
+padding-bottom: 160px;
+background-attachment: fixed
+}
+
+.about p {
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	padding: 0px 0px 75px 0px;
+}
+
+
+.about h2 {
+	text-align: center;
+	color: #e6b5aa;
+	font-size: 60px;
+	padding: 100px 0px 0px 0px;
+	margin: 0 auto;	
+}
+
+.about h2:before,
+.about h2:after {
+	content: '';
+
+	/* делаем линию строчно-блочной */
+	display: inline-block;
+
+	/* выравниваем вертикально по середине */
+	vertical-align: middle;
+
+	/* не позволяем ширине превысить 100% (будет добавлен бордюр) */
+	box-sizing: border-box;
+
+	/* установка ширины в 100% делает линию равной ширине тега заголовка
+	** благодаря этому линия заполнит все свободное пространство
+	** слева и справа от текста
+	*/
+	width: 30%;
+	height: 3px;
+	background: #fff;
+
+	/* добавляем к линии левый и правый бордюр цветом основного фона заголовка
+	** благодаря этому создается нужный отступ между линиями и текстом
+	*/
+	border: solid #fff;
+	border-width: 0 10px;
+}
+.about h2:before {
+	/* смещаем левую линию влево отрицательным отступом, равным 100% ширины
+	** благодаря этому линия встает слева от текста
+	*/
+	margin-left: -100%;
+}
+.about h2:after {
+	/* смещаем правую линию вправо отрицательным отступом, равным 100% ширины
+	** благодаря этому линия встает справа от текста
+	*/
+	margin-right: -100%;
+}
+
+.about_ph {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.about_ph img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+/*Contact*/
+
+.contact {
+	background: #757575;
+	width: auto;
+	height: 200px;
+	display: flex;
+
+}
+
+.contact p {
+	color: #fff;
+	font-size: 30px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+}
